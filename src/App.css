@@ -1,0 +1,135 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+
+}
+
+.headerNav{
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+  /* background-color: black; */
+}
+.header{
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  /* background-color: blue; */
+}
+
+.NavDrop{
+  margin-left: -10px;
+}
+
+.barIcon{
+  visibility: hidden;
+  margin-top: 22px;
+  font-size: large;
+}
+
+.logoColor{
+  color: green;
+}
+
+.logoColor1{
+  color: orange;
+}
+
+.DivNav{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 950px;
+  /* background-color: red; */
+
+}
+
+.NavDrop{
+  margin-left: 20px;
+}
+
+.innerList{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* background-color: blanchedalmond; */
+}
+
+.innerList li:hover{
+  background-color: lightsalmon;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  transition: 3s all;
+  width: 80%;
+}
+
+
+.innerList li{
+  list-style-type: none;
+  font-size: 15px;
+  margin: auto;
+  gap: 5px;
+}
+
+.innerList li a{
+  margin-right: 2px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  margin: auto;
+  padding: 10px 10px;
+}
+
+
+
+@media screen and (max-width: 1170px) {
+  .headerNav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .innerList{
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    column-gap: 80px;   
+  }
+  .DivNav{
+    display: none;
+  }
+  .incoLogo{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    visibility: visible;   
+  }
+
+}
+
+
+.dropdown{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.about{
+  background-image: url("https://gdb.voanews.com/3d8501e9-3ba4-4615-85fd-764ad604f9d9_w408_r1_s.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+/* 
+.shubham{
+  box-shadow: 5px 10px 5px black;
+} */
