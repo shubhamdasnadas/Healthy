@@ -126,7 +126,20 @@
   background-size: cover;
 }
 
+.rohit{
+  background-image: url("https://heavendesigns.in/wp-content/uploads/2022/02/house-with-solar-panels-174673282-ab883d486cb043a985efd2f5020381d0-scaled.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
 
+}
+
+.contactMain{
+  background-image: url("https://t3.ftcdn.net/jpg/02/78/64/70/360_F_278647071_YxvsAsdTVruVyqbckYEIucYxNmMHV0lt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
 
 
 /* 
